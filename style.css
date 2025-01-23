@@ -25,6 +25,7 @@ html {
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
+    overflow-x: hidden;
 }
 
 section {
@@ -231,6 +232,17 @@ span {
 /* Services Section */
 .services {
     background: var(--snd-bg-color);
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 7rem 8%;
+}
+
+.services img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .heading {
